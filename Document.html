@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/HTML/Galery.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style>
+    body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 1348px;
+    display: flex;
+    background-color: rgb(238, 205, 211);
+    height: 80px;
+}
+#flower{
+  height: 70px;
+  width: 70px;
+  margin-left: 15px;
+
+}
+#name{
+    color: lightcoral;
+    margin-top: 10px;
+    margin-left: 20px;
+   font-size: 40px;
+   font-family: cursive;
+
+}
+li{
+    margin-left: 10px;
+    display: inline;
+    list-style-type: none;  
+}
+#listdiv{
+    margin-left: 400px;
+    font-size: 26px;
+    margin-top: 25px;
+}
+#button{
+    display: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(123, 123, 216);
+    height: 40px;
+    width: 100px;
+    margin-top:20px ;
+    margin-left: 80px;
+    
+}
+/* MAIN1 PAGE */
+#background{
+    width: 1349px;
+    height: 800px;
+    text-align: center;
+}
+#main1text{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 70px;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(121, 61, 38);
+}
+p{
+    position: absolute;
+    margin-top: -400px;
+    font-size: 30px;
+    color: rgb(82, 7, 7);
+    padding: 30px;
+}
+/* MAIN2 page */
+#main2{
+    display: flex;
+   
+    
+}
+#main3{
+    display: flex;
+    margin-top: 80px;
+}
+#all{
+    border: 3px solid rgb(217, 214, 219);
+    border-radius: 15px;
+    display: inline;
+    margin: 60px;
+    margin-top: -10px;
+    background-color:rgb(245, 202, 227);
+    
+}
+#images{
+    width:200px;
+    height: 150px;
+    background-color: white;
+}
+#main4{
+
+     margin-top: 80px;
+     background-color: rgb(235, 225, 225);
+}
+
+   
+
+input{
+    width: 206px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(243, 203, 234);
+}
+.search-btn{
+    height: 30px;
+    color: white;
+    background-color: rgb(241, 180, 194);
+}
+/*  */
+/* min-width:350px  */
+@media screen and (min-width:300px) {
+    nav{
+        display: flex;
+        background-color: rgb(241, 163, 177);
+        height: 70px;
+        width: 350px;
+    }
+    #flower{
+        height: 50px;
+        width: 50px;
+        margin-left: 15px;
+      
+      }
+      #name{
+          color: lightcoral;
+          margin-top: 8px;
+          margin-left: 20px;
+         font-size: 30px;
+         font-family: cursive;
+      
+      }
+      li{
+        display: none;
+      }
+      #button{
+        display: block;
+       height: 40px;
+       width: 100px;
+       margin-left: -365px;
+      }
+    
+      #background{
+        width: 350px;
+        height: 400px;
+        text-align: center;
+    }
+    #main1text{
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 40px;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:rgb(121, 38, 63);
+    }
+    p{
+        position: absolute;
+        margin-top: -200px;
+        font-size: 20px;
+        color: rgb(104, 17, 17);
+        padding: 10px;
+    }
+    #main2{
+        display: inline;
+    }
+    #main3{
+        display: inline;
+        margin-top: 80px;
+    }
+    #all{
+        border: 3px solid rgb(218, 199, 231);
+        border-radius: 15px;
+        display: block;
+        margin: 30px;
+        width: 300px;
+        margin-top: -10px;
+        background-color:rgb(245, 202, 227);
+        
+    }
+    #images{
+        width:290px;
+        border-radius: 15px;
+        height: 200px;
+        background-color: white;
+    }
+    #main4{
+        width: 350px;
+        margin-top: 40px;
+        background-color: rgb(235, 225, 225);
+   }
+   #input{
+    display: flex;
+       margin: 40px;
+       margin-left: 50px;
+       margin-top: 40px;
+       height: 30px;
+       border-radius: 5px;
+       background-color: rgb(243, 203, 234);
+   }  
+}
+/* min-width 500px*/
+@media screen and (min-width:500px) {
+     nav{
+        width: 550px;
+     }
+     nav{
+        display: flex;
+        background-color: rgb(241, 163, 177);
+        height: 70px;
+        width: 550px;
+    }
+    #flower{
+        height: 70px;
+        width: 70px;
+        margin-left: 15px;
+      
+      }
+      #name{
+          color: lightcoral;
+          margin-top: 8px;
+          margin-left: 20px;
+         font-size: 40px;
+         font-family: cursive;
+      
+      }
+      li{
+        display: none;
+      }
+      #button{
+        display: block;
+       height: 40px;
+       width: 130px;
+       margin-left: -300px;
+      }
+      #background{
+        width: 550px;
+        height: 500px;
+        text-align: center;
+    }
+    #main1text{
+        position: absolute;
+        margin-top: -400px;
+        margin-left: 50px;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:rgb(121, 38, 63);
+    }
+    p{
+        position: absolute;
+        margin-top: -300px;
+        font-size: 20px;
+        color: rgb(104, 17, 17);
+        padding: 10px;
+    }
+    #main2{
+        display:flex;
+    }
+    #main3{
+        display:flex;
+        margin-top: 80px;
+    }
+    #row2{
+        display: block;
+    }
+    #all{
+        border: 3px solid rgb(218, 199, 231);
+        border-radius: 15px;
+        display: block;
+        margin: 30px;
+        width: 200px;
+        margin-top: -10px;
+        background-color:rgb(245, 202, 227);
+        
+    }
+    #images{
+        width:200px;
+        border-radius: 15px;
+        height: 200px;
+        background-color: white;
+    }
+    #main4{
+        width: 550px;
+        margin-top: 40px;
+        background-color: rgb(243, 212, 212);
+   }
+   #input{
+    display: flex;
+       width: 400px;
+       margin-left: 240px;
+       margin-top: 0px;
+       height: 30px;
+       border-radius: 5px;
+       background-color: rgb(243, 203, 234);
+   }  
+     
+}
+
+
+/* min-width 700px*/
+@media screen and (min-width:700px) {
+   
+    nav{
+       display: flex;
+       background-color: rgb(241, 163, 177);
+       height: 70px;
+       width: 750px;
+   }
+   #flower{
+       height: 80px;
+       width: 80px;
+       margin-left: 15px;
+     
+     }
+     #name{
+         color: lightcoral;
+         margin-top: 8px;
+         margin-left: 20px;
+        font-size: 50px;
+        font-family: cursive;
+     
+     }
+    li{
+       display: none;
+    }
+     #button{
+       display:block;
+      height: 40px;
+      width: 130px;
+      margin-left: -150px;
+     }
+     #background{
+       width: 750px;
+       height: 500px;
+       text-align: center;
+   }
+   #main1text{
+       position: absolute;
+       margin-top: -400px;
+       margin-left: 50px;
+       font-size: 50px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       color:rgb(121, 38, 63);
+   }
+   p{
+       position: absolute;
+       margin-top: -300px;
+       font-size: 30px;
+       color: rgb(104, 17, 17);
+       padding: 10px;
+   }
+   #main2{
+       display:flex;
+   }
+   #main3{
+       display:flex;
+       margin-top: 80px;
+   }
+   #row2{
+       display: block;
+   }
+   #all{
+       border: 3px solid rgb(218, 199, 231);
+       border-radius: 15px;
+       display: block;
+       margin: 30px;
+       width: 300px;
+       margin-top: -10px;
+       background-color:rgb(245, 202, 227);
+       
+   }
+   #images{
+       width:300px;
+       border-radius: 15px;
+       height: 200px;
+       background-color: rgb(150, 90, 120);
+   }
+   #main4{
+       width: 750px;
+       margin-top: 40px;
+       background-color: rgb(247, 190, 223);
+  }
+  #input{
+   display: flex;
+      width: 400px;
+      margin-left: 380px;
+      margin-top: -45px;
+      height: 30px;
+      border-radius: 5px;
+      background-color: rgb(243, 203, 234);
+  }  
+    
+}
+/*1000px  */
+@media screen and (min-width:1340px) {
+    nav{
+        width: 1348px;
+        display: flex;
+        background-color: rgb(238, 205, 211);
+        height: 80px;
+    }
+    #flower{
+      height: 70px;
+      width: 70px;
+      margin-left: 15px;
+    
+    }
+    #name{
+        color: lightcoral;
+        margin-top: 10px;
+        margin-left: 20px;
+       font-size: 40px;
+       font-family: cursive;
+    
+    }
+    li{
+        margin-left: 10px;
+        display: inline;
+        list-style-type: none;  
+    }
+    #listdiv{
+        margin-left: 400px;
+        font-size: 26px;
+        margin-top: 25px;
+    }
+    #button{
+        display: none;
+        color: white;
+        border-radius: 5px;
+        background-color: rgb(123, 123, 216);
+        height: 40px;
+        width: 100px;
+        margin-top:20px ;
+        margin-left: 80px;
+        
+    }
+    /* MAIN1 PAGE */
+    #background{
+        width: 1349px;
+        height: 800px;
+        text-align: center;
+    }
+    #main1text{
+        position: absolute;
+        margin-top: -500px;
+        margin-left: 70px;
+        font-size: 70px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:rgb(121, 61, 38);
+    }
+    p{
+        position: absolute;
+        margin-top: -400px;
+        font-size: 30px;
+        color: rgb(231, 170, 170);
+        padding: 30px;
+    }
+    /* MAIN2 page */
+    #main2{
+        width: 1349px;
+        display: flex;
+       
+        
+    }
+    #main3{
+        width: 1350;
+        display: flex;
+        margin-top: 80px;
+    }
+    
+    
+    #all{
+        width: 300px;
+        border: 3px solid rgb(217, 214, 219);
+        border-radius: 15px;
+        display: block;
+        margin: 60px;
+        margin-top: -10px;
+        background-color:rgb(245, 202, 227);
+        
+    }
+    #images{
+        width:290px;
+        height: 150px;
+        background-color: white;
+    }
+    #main4{
+        display: block;
+         width: 1349px;
+         margin-top: 80px;
+         background-color: rgb(235, 225, 225);
+    }
+    
+       
+    
+    input{
+        width: 206px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(243, 203, 234);
+    }
+    .search-btn{
+        height: 30px;
+        color: white;
+        background-color: rgb(241, 180, 194);
+    }
+    
+}  
+
+
+
+
+  </style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+      <img id="flower" src="./Document_files/lotus-flower-1805784_640.png" alt="">
+        <h2 id="name">Gallery</h2>
+        <div id="listdiv">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Portfolio</li>
+        <li>Blog</li>
+      </div>
+      <button id="button">MENU</button>
+    </nav>
+    <div id="main1">
+         <img id="background" src="./Document_files/1675416348_top-fon-com-p-nezhnii-vesennii-fon-dlya-prezentatsii-209.jpg" alt="">
+         <h1 id="main1text">WELCOME TO OUR IMAGE GALLERY</h1>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora sequi soluta omnis mollitia repellendus modi repellat! Sunt veniam aut rem illum quisquam, quam unde, blanditiis quibusdam odit perspiciatis ratione fuga.</p>
+    </div>
+    <h1>Popular image</h1>
+    
+    <div id="main2">
+       <div id="row2">
+      <div id="all">
+        <img id="images" src="./Document_files/e97410fd6629f10c383c5c1ec9a0d6d6.jpg" alt="">
+        <h2>Name:</h2>
+        <h3>Description</h3>
+      </div>
+      <div id="all">
+        <img id="images" src="./Document_files/573.0x340.jpg" alt="">
+        <h2>Name:</h2>
+        <h3>Description</h3>
+      </div>
+    </div>
+    <div>
+      <div id="all">
+        <img id="images" src="./Document_files/Mindent_koszonok_viragkosar_450.jpg" alt="">
+        <h2>Name:</h2>
+        <h3>Description</h3>
+      </div>
+      <div id="all">
+        <img id="images" src="./Document_files/1583313057_87462583.jpg" alt="">
+        <h2>Name:</h2>
+        <h3>Description</h3>
+      </div>
+    </div>
+  </div>
+     <div id="main3">
+      <div>
+        <div id="all">
+            <img id="images" src="./Document_files/tulips-flowers-bouquet-bright-paper-white-background-683761.jpg" alt="">
+            <h2>Name:</h2>
+            <h3>Description</h3>
+          </div>
+          <div id="all">
+            <img id="images" src="./Document_files/ATbraebac.jpg" alt="">
+            <h2>Name:</h2>
+            <h3>Description</h3>
+          </div>
+        </div>
+        <div>
+          <div id="all">
+            <img id="images" src="./Document_files/1583313057_87462583.jpg" alt="">
+            <h2>Name:</h2>
+            <h3>Description</h3>
+          </div>
+          <div id="all">
+            <img id="images" src="./Document_files/3821_1000.jpg" alt="">
+            <h2>Name:</h2>
+            <h3>Description</h3>
+          </div>
+        </div>
+     </div>
+     <div id="main4">
+     <h1>All images from our gallery</h1>
+     <div id="input">
+      <form action="http://127.0.0.1:5500/HTML/Galery.html" class="search-bar">
+        <input type="search" name="search" pattern=".*\S.*" required="" placeholder="Name or Description">
+        <button class="search-btn" type="submit">
+          <span>Search</span>
+        </button>
+      </form>
+     </div>
+     <div id="main2">
+      <div id="row2">
+     <div id="all">
+       <img id="images" src="./Document_files/e97410fd6629f10c383c5c1ec9a0d6d6.jpg" alt="">
+       <h2>Name:</h2>
+       <h3>Description</h3>
+     </div>
+     <div id="all">
+       <img id="images" src="./Document_files/573.0x340.jpg" alt="">
+       <h2>Name:</h2>
+       <h3>Description</h3>
+     </div>
+   </div>
+   <div>
+     <div id="all">
+       <img id="images" src="./Document_files/Mindent_koszonok_viragkosar_450.jpg" alt="">
+       <h2>Name:</h2>
+       <h3>Description</h3>
+     </div>
+     <div id="all">
+       <img id="images" src="./Document_files/1583313057_87462583.jpg" alt="">
+       <h2>Name:</h2>
+       <h3>Description</h3>
+     </div>
+   </div>
+ </div>
+    <div id="main3">
+     <div>
+       <div id="all">
+           <img id="images" src="./Document_files/tulips-flowers-bouquet-bright-paper-white-background-683761.jpg" alt="">
+           <h2>Name:</h2>
+           <h3>Description</h3>
+         </div>
+         <div id="all">
+           <img id="images" src="./Document_files/ATbraebac.jpg" alt="">
+           <h2>Name:</h2>
+           <h3>Description</h3>
+         </div>
+       </div>
+       <div>
+        <div id="all">
+          <img id="images" src="./Document_files/1583313057_87462583.jpg" alt="">
+          <h2>Name:</h2>
+          <h3>Description</h3>
+        </div>
+        <div id="all">
+          <img id="images" src="./Document_files/3821_1000.jpg" alt="">
+          <h2>Name:</h2>
+          <h3>Description</h3>
+        </div>
+      </div>
+   </div>  
+</div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
